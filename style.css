@@ -1,0 +1,297 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+html,
+body {
+	background-color:#fff;
+	color:#000;
+	text-rendering:optimizeLegibility;
+	font-size:16px;
+	font-family:'Work Sans','Arial',sans-serif;
+}
+
+h1 {
+
+	font-size:440%;
+	color:#fff;
+	font-weight:500;
+	margin-bottom:20px;
+
+}
+
+h2 {
+	font-size:200%;
+	color:#fff;
+	font-weight:400;
+}
+
+h3 {
+	font-size:180%;
+	color:#fff;
+	font-weight:350;
+}
+
+.row {
+	max-width:1140px;
+	margin:0 auto;
+}
+
+header {
+	background-image:linear-gradient(rgba(0,0,0,.5),rgb(0,0,0,.8)),url(bg-header.jpg);
+	height:100vh;
+	background-size:cover;
+	background-position:center;
+	background-attachment: fixed;
+	position:relative;
+}
+
+.header-box {
+	position:absolute;
+	top:60%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	text-align:center;
+}
+
+.header-text-box {
+	margin-bottom:80px;
+}
+
+/** Buttons **/
+
+.btn-full:link,
+.btn-full:visited {
+	background-color:#cbb26a;
+	color:#000;
+}
+
+.btn-full:hover,
+.btn-full:active,
+input[type=submit]:hover {
+	background-color:#cbb26a;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+	border:2px solid #cbb26a;
+	color:#cbb26a;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+	background-color:#cbb26a;
+	color:#000;
+}
+
+/***** NAVIGATION ******/
+.logo {
+	height:120px;
+	width:auto;
+	float:left;
+}
+
+nav {	
+	margin: 0 auto;
+	display: block;
+	padding: 50px 125px 20px 10px;
+	text-align: center;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.nav-head li {
+	list-style: none;
+	margin: auto;
+	border-left: 2px solid #cbb26a;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0 25px;
+	position: relative;
+	text-align: center;
+}
+
+.nav-head li a {
+	color: #fff;
+	text-decoration: none;
+}
+	  
+.nav-head li a:hover {
+	color: #cbb26a;
+}
+
+/***  ABOUT US   ***/
+
+.about-section {
+	padding-bottom:20px;
+	background-color: #f8f7f6;
+}
+
+.about-img {
+	width:100%;
+	height: auto;
+	border-radius: 20px;
+	margin-top: 30%;
+}
+
+.about-heading {
+	color:#cbb26a;
+	font-size:200%;
+	font-weight:600;
+	margin-bottom:50px;
+}
+
+.about-text {
+	color:#555;
+	font-size:160%;
+	font-weight:400;
+	margin-bottom:20px;
+}
+.about-box {
+	margin-top:80px;
+}
+.about-box:first-child {
+	text-align:left;
+	padding:0 5%;
+}
+.about-box:last-child {
+	text-align: right;
+
+}
+
+/**About Section, image animation**/
+.about-img {
+	overflow: hidden;
+	width:100%;
+	height:auto;
+	opacity:.9;
+	transform:scale(.9);
+	transition:opacity 0.5s;
+	transition:transform 0.5s;
+}
+
+.about-img:hover {
+	transform:scale(1.05);
+	opacity:1;
+   }
+
+
+/*** Working Hours (about section) ***/
+
+.working-img {
+	width:90%;
+	height: auto;
+	border-radius: 20px;
+}
+
+.working-hrs {
+	color:#cbb26a;
+	font-size:200%;
+	font-weight:600;
+	margin-bottom:50px;
+}
+
+.working-para {
+	color:#555;
+	font-size:160%;
+	font-weight:380;
+	margin-bottom:20px;
+	line-height: 1.3;
+}
+.working-row {
+	margin-top:40px;
+}
+
+.working-phone {
+	color:#555;
+	font-size:130%;
+	font-weight:380;
+	margin-top: 10%;
+	line-height: 1.3;
+}
+
+.bi-telephone-fill{
+	color: #cbb26a;
+}
+
+.working-row:first-child {
+	text-align:left;
+	padding:0 5%;
+}
+.working-row:last-child {
+	text-align:right;
+}
+
+/**About Section, image animation**/
+.working-img {
+	overflow: hidden;
+	width:100%;
+	opacity:.9;
+	transform:scale(.9);
+	transition:opacity 0.5s;
+	transition:transform 0.5s;
+}
+
+.working-img:hover {
+	transform:scale(1.05);
+	opacity:1;
+   }
+
+/**** MENU SECTION ****/
+.menu {
+	padding-top: 40px;
+	background-color: #eeeaea;
+	padding-bottom: 30px;
+}
+.menu h2{
+	text-align: center;
+	color:#cbb26a;
+	font-size:200%;
+	font-weight:600;
+	margin-bottom:50px;
+}
+.mySlides {
+	display:none;
+	height: 90vh;
+	width: auto;
+}
+.w3-left, .w3-right, .w3-badge {
+	   cursor:pointer;
+	   color: red;
+}
+
+.w3-badge {
+	height:13px;
+	width:13px;
+	padding:0;
+	background-color: #cbb26a;
+}
+
+/*** RESTAURANTS ***/
+
+.restaurants {
+	padding-bottom:20px;
+	background-color: #f8f7f6;
+}
+
+.restaurant-heading {
+	color:#cbb26a;
+	font-size:200%;
+	font-weight:600;
+	margin-bottom:50px;
+	text-align: left;
+}
+
+.restaurant-box {
+	margin-top:80px;
+}
+.restaurant-box:first-child {
+	text-align:left;
+	padding:0 5%;
+}
+.restaurant-box:last-child {
+	text-align:right;
+	padding:0 5%;
+}
