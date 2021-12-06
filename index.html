@@ -38,7 +38,7 @@
                 <li><a href="#about-us">About</a></li>
                 <li><a href="#menu">Menu</a></li>
                 <li><a href="#restaurants">Restaurants</a></li>
-                <li><a href="#">Reservations</a></li>
+                <li><a href="#reservation">Reservations</a></li>
                 <li><a href="#">Partners</a></li>
                 <li><a href="#">Feedback</a></li>
                 <li><a href="#">Career</a></li>   
@@ -89,6 +89,7 @@
     </section>
 
     <section class="menu" id="menu">
+        <div class="row">
         <h2>Menu</h2>
         <div class="w3-content w3-display-container" style="max-width:800px">
             <img class="mySlides" src="menu/menu-01.png" alt="menu image" style="width:100%">
@@ -135,7 +136,7 @@
                 <span class="w3-badge demo w3-border w3-solid w3-hover-red" onclick="currentDiv(19)"></span>
             </div>
           </div>
-
+        </div>
         <!-- Slideshow JS -->
         <script>
             var slideIndex = 1;
@@ -174,14 +175,54 @@
                 <iframe src="https://www.google.com/maps/d/embed?mid=1UnmnOWM46i-X2uxFP_7TvXV2TXd_pCAA" width="440" height="450"></iframe>
             </div>
             <div class="col span_1_of_2 restaurant-box">
-                <h2 class="restaurant-heading">Fortuna Baščaršija</h2>
+                <h2 class="restaurant-heading" style="margin-left: 1%;">Fortuna Baščaršija</h2>
                 <iframe src="https://www.google.com/maps/d/embed?mid=1w8XsqKzWkrQSrsTJ8qHkpm-BjOt5ws_h" width="440" height="450"></iframe>
             </div>
     </section>
 
-    <section class="reservations">
+    <section class="reservations" id="reservation">
+        <div class="row">
+            <h2 class="reservations-heading">Reservations</h2>
+               
+            <form method="post" action="#" class="booking-form">
+                <div class="row">
+                    <div class="col span_1_of_3">
+                        <label for="name">Name and Surname</label>
+                    </div>
+                    <div class="col span_2_of_3">
+                        <input type="text" name="name" id="name" placeholder="Your Name and Surname" required>
+                    </div>
+                </div>
 
+                <div class="row">
+                    <div class="col span_1_of_3">
+                        <label for="date">Date</label>
+                    </div>
+                    <div class="col span_2_of_3">
+                        <input type="date" name="date" id="date" placeholder="Pick a Date" required>
+                    </div>
+                </div>
 
+                <div class="row">
+                    <div class="col span_1_of_3">
+                         <label for="time">Time of Your Reservation</label>
+                    </div>
+                    <div class="col span_2_of_3">
+                        <input type="time" name="time" id="time" required>
+                    </div>
+                </div>
+                                
+            <div class="row">
+                <div class="col span_1_of_3">
+                 &nbsp;
+                </div>
+                <div class="col span_2_of_3">
+                    <input type="submit" value="Submit">
+                </div>
+            </div>
+                    
+            </form>
+        </div>
     </section>
 
 
