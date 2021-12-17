@@ -16,32 +16,28 @@
     <link rel="icon" href="logo.ico">
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
-    <link href="fluid.css" type="text/css" rel="stylesheet">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <!--slideshow css-->
-    <link href="style.css" type="text/css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="media-query.css">
-        
-       
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-    crossorigin="anonymous"></script>
+    <link href="fluid.css" type="text/css" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="media-query.css" type="text/css" rel="stylesheet">
+        
+    
 </head>
 
 <body>
-
     <header id="home">
+        
         <img src="logo.png" alt="Logo" class="logo">
-
         <nav role="navigation" class="primary-navigation">
+            
             <ul class="nav-head">
                 <li><a href="#about-us">About</a></li>
                 <li><a href="#menu">Menu</a></li>
                 <li><a href="#restaurants">Restaurants</a></li>
                 <li><a href="#reservation">Reservations</a></li>
-                <li><a href="#">Partners</a></li>
-                <li><a href="#">Feedback</a></li>
-                <li><a href="#">Career</a></li>   
+                <li><a href="#partners">Partners</a></li>
+                <li><a href="#feedback">Feedback</a></li>
+                <li><a href="#career">Career</a></li>   
             </ul>
         </nav>
 
@@ -50,7 +46,7 @@
                 <h1>Fortuna Restaurant</h1>
                 <h2>Quality is our recipe</h2>
             </div>
-            <a href="#" class="btn btn-full">Contact Us</a>
+            <a href="#contact" class="btn btn-full">Contact Us</a>
         </div>
     </header>
         
@@ -66,7 +62,7 @@
                 </p>
             </div>
             <div class="col span_1_of_2 about-box">
-                <img src="about.jpg" alt="about" class="about-img">
+                <img src="about.jpg" alt="food image" class="about-img">
             </div>
         <hr>
             <div class="row">
@@ -91,93 +87,52 @@
     <section class="menu" id="menu">
         <div class="row">
         <h2>Menu</h2>
-        <div class="w3-content w3-display-container" style="max-width:800px">
-            <img class="mySlides" src="menu/menu-01.png" alt="menu image" style="width:100%">
-            <img class="mySlides" src="menu/menu-02.png" alt="menu image" style="width:100%">
-            <img class="mySlides" src="menu/menu-03.png" alt="menu image" style="width:100%">
-            <img class="mySlides" src="menu/menu-04.png" alt="menu image" style="width:100%">
-            <img class="mySlides" src="menu/menu-05.png" alt="menu image" style="width:100%">
-            <img class="mySlides" src="menu/menu-06.png" alt="menu image" style="width:100%">
-            <img class="mySlides" src="menu/menu-09.png" alt="menu image" style="width:100%">
-            <img class="mySlides" src="menu/menu-11.png" alt="menu image" style="width:100%">
-            <img class="mySlides" src="menu/menu-12.png" alt="menu image" style="width:100%">
-            <img class="mySlides" src="menu/menu-13.png" alt="menu image" style="width:100%">
-            <img class="mySlides" src="menu/menu-14.png" alt="menu image" style="width:100%">
-            <img class="mySlides" src="menu/menu-16.png" alt="menu image" style="width:100%">
-            <img class="mySlides" src="menu/menu-17.png" alt="menu image" style="width:100%">
-            <img class="mySlides" src="menu/menu-18.png" alt="menu image" style="width:100%">
-            <img class="mySlides" src="menu/menu-19.png" alt="menu image" style="width:100%">
-            <img class="mySlides" src="menu/menu-20.png" alt="menu image" style="width:100%">
-            <img class="mySlides" src="menu/menu-22.png" alt="menu image" style="width:100%">
-            <img class="mySlides" src="menu/menu-23.png" alt="menu image" style="width:100%">
-            <img class="mySlides" src="menu/menu-24.png" alt="menu image" style="width:100%">
-            
-            <div class="w3-center w3-container w3-section w3-large w3-text-blue w3-display-center">
-              <div class="w3-left w3-hover-text-red" onclick="plusDivs(-1)">&#10094;</div>
-              <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
-                <span class="w3-badge demo w3-border w3-solid w3-hover-red" onclick="currentDiv(1)"></span>
-                <span class="w3-badge demo w3-border w3-solid w3-hover-red" onclick="currentDiv(2)"></span>
-                <span class="w3-badge demo w3-border w3-solid w3-hover-red" onclick="currentDiv(3)"></span>
-                <span class="w3-badge demo w3-border w3-solid w3-hover-red" onclick="currentDiv(4)"></span>
-                <span class="w3-badge demo w3-border w3-solid w3-hover-red" onclick="currentDiv(5)"></span>
-                <span class="w3-badge demo w3-border w3-solid w3-hover-red" onclick="currentDiv(6)"></span>
-                <span class="w3-badge demo w3-border w3-solid w3-hover-red" onclick="currentDiv(7)"></span>
-                <span class="w3-badge demo w3-border w3-solid w3-hover-red" onclick="currentDiv(8)"></span>
-                <span class="w3-badge demo w3-border w3-solid w3-hover-red" onclick="currentDiv(9)"></span>
-                <span class="w3-badge demo w3-border w3-solid w3-hover-red" onclick="currentDiv(10)"></span>
-                <span class="w3-badge demo w3-border w3-solid w3-hover-red" onclick="currentDiv(11)"></span>
-                <span class="w3-badge demo w3-border w3-solid w3-hover-red" onclick="currentDiv(12)"></span>
-                <span class="w3-badge demo w3-border w3-solid w3-hover-red" onclick="currentDiv(13)"></span>
-                <span class="w3-badge demo w3-border w3-solid w3-hover-red" onclick="currentDiv(14)"></span>
-                <span class="w3-badge demo w3-border w3-solid w3-hover-red" onclick="currentDiv(15)"></span>
-                <span class="w3-badge demo w3-border w3-solid w3-hover-red" onclick="currentDiv(16)"></span>
-                <span class="w3-badge demo w3-border w3-solid w3-hover-red" onclick="currentDiv(17)"></span>
-                <span class="w3-badge demo w3-border w3-solid w3-hover-red" onclick="currentDiv(18)"></span>
-                <span class="w3-badge demo w3-border w3-solid w3-hover-red" onclick="currentDiv(19)"></span>
+        
+        <div class="card col span_1_of_4" style="width: 18rem;">
+            <img class="card-img-top" src="about.jpg" alt="Card image cap" style="width:100%;">
+            <div class="card-body">
+              <h3 class="card-text" style="margin-bottom: 10px; color:#cbb24a; margin-bottom: 10%;">Example of a meal</h3>
+              <p style="margin-bottom: 5px; font-style: italic; margin-bottom: 15px;">Ingredients: -- ------- ---------- ------- ---------------- </p>
+              <b><small style="font-size: 14px; color:rgb(103, 236, 103); font-style: italic;">Cost: 15 KM</small></b>
+            </div>
+          </div><div class="card col span_1_of_4" style="width: 18rem;">
+            <img class="card-img-top" src="about.jpg" alt="Card image cap" style="width:100%;">
+            <div class="card-body">
+              <h3 class="card-text" style="margin-bottom: 10px; color:#cbb24a; margin-bottom: 10%;">Example of a meal</h3>
+              <p style="margin-bottom: 5px; font-style: italic; margin-bottom: 15px;">Ingredients: -- ------- ---------- ------- ---------------- </p>
+              <b><small style="font-size: 14px; color:rgb(103, 236, 103); font-style: italic;">Cost: 15 KM</small></b>
+            </div>
+          </div><div class="card col span_1_of_4" style="width: 18rem;">
+            <img class="card-img-top" src="about.jpg" alt="Card image cap" style="width:100%;">
+            <div class="card-body">
+              <h3 class="card-text" style="margin-bottom: 10px; color:#cbb24a; margin-bottom: 10%;">Example of a meal</h3>
+              <p style="margin-bottom: 5px; font-style: italic; margin-bottom: 15px;">Ingredients: -- ------- ---------- ------- ---------------- </p>
+              <b><small style="font-size: 14px; color:rgb(103, 236, 103); font-style: italic;">Cost: 15 KM</small></b>
             </div>
           </div>
-        </div>
-        <!-- Slideshow JS -->
-        <script>
-            var slideIndex = 1;
-            showDivs(slideIndex);
-            
-            function plusDivs(n) {
-            showDivs(slideIndex += n);
-            }
-            
-            function currentDiv(n) {
-            showDivs(slideIndex = n);
-            }
-            
-            function showDivs(n) {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("demo");
-            if (n > x.length) {slideIndex = 1}
-            if (n < 1) {slideIndex = x.length}
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";  
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" w3-white", "");
-            }
-            x[slideIndex-1].style.display = "block";  
-            dots[slideIndex-1].className += " w3-white";
-            }
-        </script>
+          <div class="card col span_1_of_4" style="width: 18rem;">
+            <img class="card-img-top" src="about.jpg" alt="Card image cap" style="width:100%;">
+            <div class="card-body">
+              <h3 class="card-text" style="margin-bottom: 10px; color:#cbb24a; margin-bottom: 10%;">Example of a meal</h3>
+              <p style="margin-bottom: 5px; font-style: italic; margin-bottom: 15px;">Ingredients: -- ------- ---------- ------- ---------------- </p>
+              <b><small style="font-size: 14px; color:rgb(103, 236, 103); font-style: italic;">Cost: 15 KM</small></b>
+            </div>
+          </div>
+
     </section>
 
     <section class="restaurants" id="restaurants">
         <div class="row">
+            <h2 class="restaurant-heading" style="margin-top: 30px;">Restaurants</h2>
             <div class="col span_1_of_2 restaurant-box">
-                <h2 class="restaurant-heading">Fortuna Ilidža</h2>
+                <h2 class="restaurant-locs">Fortuna Ilidža</h2>
                 <iframe src="https://www.google.com/maps/d/embed?mid=1UnmnOWM46i-X2uxFP_7TvXV2TXd_pCAA" width="440" height="450"></iframe>
             </div>
             <div class="col span_1_of_2 restaurant-box">
-                <h2 class="restaurant-heading" style="margin-left: 1%;">Fortuna Baščaršija</h2>
+                <h2 class="restaurant-locs" style="margin-left: 1%;">Fortuna Baščaršija</h2>
                 <iframe src="https://www.google.com/maps/d/embed?mid=1w8XsqKzWkrQSrsTJ8qHkpm-BjOt5ws_h" width="440" height="450"></iframe>
             </div>
+        </div>
     </section>
 
     <section class="reservations" id="reservation">
@@ -185,6 +140,7 @@
             <h2 class="reservations-heading">Reservations</h2>
                
             <form method="post" action="#" class="booking-form">
+                
                 <div class="row">
                     <div class="col span_1_of_3">
                         <label for="name">Name and Surname</label>
@@ -208,7 +164,7 @@
                          <label for="time">Time of Your Reservation</label>
                     </div>
                     <div class="col span_2_of_3">
-                        <input type="time" name="time" id="time" required>
+                        <input type="time" name="time" id="time" min="08:00" max="23:00" required>
                     </div>
                 </div>
                                 
@@ -220,18 +176,226 @@
                     <input type="submit" value="Submit">
                 </div>
             </div>
-                    
             </form>
         </div>
     </section>
 
+    <section class="partners" id="partners">
+        <div class="row">
+            <h2 class="partners-heading">Partners</h2>
+        </div>
+        <div class="row">
+            <div class="col span_1_of_4">
+                <img class="partner-logo" src="cola.png" alt="Coca Cola Logo" title="Coca Cola">
+            </div>
+            <div class="col span_1_of_4">
+                <img class="partner-logo" src="bingo.png" alt="Bingo Logo" title="Bingo">
+            </div>
+            <div class="col span_1_of_4">
+                <img class="partner-logo" src="bajra.png" alt="Bajra Logo" title="Bajra Mesnice">
+            </div>
+            <div class="col span_1_of_4">
+                <img class="partner-logo" src="klas.png" alt="Klas Logo" title="Klas" style="margin-top: -10%;">
+            </div>
+        </div>
+    
+        <div class="row" style="margin-top: 5%;">
+            <div class="col span_1_of_4">
+                <img class="partner-logo" src="korpa.png" alt="Korpa Logo" title="Korpa Dostave">
+            </div>
+            <div class="col span_1_of_4">
+                <img class="partner-logo" src="glovo.jpg" alt="Glovo Logo" title="Glovo Dostave">
+            </div>
+            <div class="col span_1_of_4">
+                <img class="partner-logo" src="ledo.png" alt="Ledo Logo" title="Ledo">
+            </div>
+            <div class="col span_1_of_4">
+                <img class="partner-logo" src="krone.png" alt="Krone Logo" title="Krone Hotel">
+            </div>
+        </div>
+    
+    </section>
+
+    <section class="feedback" id="feedback">
+        <div class="row">
+            <h2 class="feedback-heading">Feedback</h2>
+        </div>
+
+        <div class="row">
+            <div class="col span_1_of_3 feedback-box">
+                <blockquote>
+                    I am finally getting back to tell you that we had a wonderful evening! The food, the service, the host, EVERYTHING was perfect! Thank you again for making Fortuna such a special place to be.
+                </blockquote>
+                
+                <cite><img src="lik1.jpg" class="img-rounded" alt=""><br> Amel Mujić </cite>
+            </div>
+
+            <div class="col span_1_of_3 feedback-box">
+                <blockquote>
+                    Last Friday I came for restaurant week. It was FABULOUS! The portions were overly generous. Everything was so yummy - what a bargain. I will be back soon for sure.                </blockquote>
+                <cite><img src="lik3.jpg" class="img-rounded" alt=""><br> Tarik Hadžić </cite>
+            </div>
+
+            <div class="col span_1_of_3 feedback-box">
+                <blockquote>
+                    Thank you for dinner last night. It was amazing!! I have to say it's the best meal I have had in quite some time. You will definitely be seeing more of me eating at your establishment.                </blockquote>
+                <cite>
+                    <img src="lik2.jpg" class="img-rounded" alt=""><br> Lejla Begović </cite>
+            </div>
+        
+        </div>
+
+        <hr>
+
+        <div class="row contact-class" id="contact">
+            <h2 class="contact-subheading">Contact Us</h2>
+        <form method="post" action="#" class="feedback-form">
+                
+            <div class="row">
+                <div class="col span_1_of_3">
+                    <label for="name-feedback">Name and Surname</label>
+                </div>
+                <div class="col span_2_of_3">
+                    <input type="text" name="name-feedback" id="name-feedback" placeholder="Your Name and Surname" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col span_1_of_3">
+                    <label>How would You rate Fortuna?</label>
+                </div>
+
+                <div class="col span_2_of_3" style="line-height: 1.2;">
+                    <input type="radio" id="bad" name="rate1" value="Bad">
+                        <label>Bad</label><br>
+                    <input type="radio" id="neutral" name="rate2" value="Neutral">
+                        <label>Neutral</label><br>
+                    <input type="radio" id="excellent" name="rate3" value="Excellent">
+                        <label>Excellent</label>                
+                </div>
+            </div>
+
+            <div class="row">
+				<div class="col span_1_of_3 contact-label">
+					<label for="message">Tell us Your opinion!</label>
+				</div>
+				<div class="col span_2_of_3">
+					<textarea name="message" id="message" placeholder="Your message"></textarea>
+				</div>
+			</div>
+                            
+            <div class="row">
+                <div class="col span_1_of_3">
+                 &nbsp;
+                </div>
+                <div class="col span_2_of_3">
+                    <input type="submit" value="Submit">
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+    </section>
+
+    <section class="career-section" id="career">
+        <div class="row">
+            <h2 class="career-heading">Career</h2>
+              
+            <form method="post" action="#" class="career-form">
+                
+                <div class="row">
+                    <div class="col span_1_of_3">
+                        <label for="name-career">Name and Surname</label>
+                    </div>
+                    <div class="col span_2_of_3">
+                        <input type="text" name="name-career" id="name-career" placeholder="Your Name and Surname" required>
+                    </div>
+                </div>
 
 
+                <div class="row">
+                    <div class="col span_1_of_3">
+                        <label for="date-career">Birth Date</label>
+                    </div>
+                    <div class="col span_2_of_3">
+                        <input type="date" name="date-career" id="date-career" placeholder="Enter Your Birth Date" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col span_1_of_3">
+                        <label for="email-career">Your E-Mail Address</label>
+                    </div>
+                    <div class="col span_2_of_3">
+                        <input type="email" name="email-career" id="email-career" placeholder="Your E-Mail" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col span_1_of_3">
+                        <label for="education-career">What is Your education level?</label>
+                    </div>
+                    <div class="col span_2_of_3">
+                        <input type="text" name="education-career" id="education-career" placeholder="Primary / High / College" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col span_1_of_3">
+                        <label for="languages-career">Do You speak any foreign language?</label>
+                    </div>
+                    <div class="col span_2_of_3">
+                        <input type="text" name="language-career" id="language-career" placeholder="Foreign Language" required>
+                    </div>
+                </div>
+                        
+                <div class="row">
+                    <div class="col span_1_of_3">
+                        <label for="name">Type of employment</label>
+                    </div>
+                    <div class="col span_2_of_3">
+                        <input type="text" name="employment" id="employment" placeholder="Permanent / Temporary" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col span_1_of_3">
+                        <label for="expertise">What is Your expertise?</label>
+                    </div>
+                    <div class="col span_2_of_3">
+                        <input type="text" name="expertise" id="expertise" placeholder="Cook (chef) / Waiter / Barista / something else" required>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col span_1_of_3 contact-label">
+                        <label for="message-career">Do You have anything else to tell us about Yourself?</label>
+                    </div>
+                    <div class="col span_2_of_3">
+                        <textarea name="message-career" id="message-career" placeholder="Text Here" style="padding: 3%;"></textarea>
+                    </div>
+                </div>
+
+                <!--SUBMIT BUTTON-->
+            <div class="row">
+                <div class="col span_1_of_3">
+                 &nbsp;
+                </div>
+                <div class="col span_2_of_3">
+                    <input type="submit" value="Submit">
+                </div>
+            </div>
+            </form>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+
+    <script></script>
 </body>
-
-
-
-
 
 
 </html>
