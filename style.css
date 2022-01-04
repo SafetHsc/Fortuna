@@ -59,7 +59,7 @@ header {
 	margin-bottom: 80px;
 }
 
-/** Buttons **/
+/** Button **/
 
 .btn:link,
 .btn:visited,
@@ -81,18 +81,6 @@ input[type=submit]:hover {
 .btn-full:hover,
 .btn-full:active {
 	background-color:#cbb26a;
-}
-
-.btn-ghost:link,
-.btn-ghost:visited {
-	border: 2px solid #cbb26a;
-	color:#cbb26a;
-}
-
-.btn-ghost:hover,
-.btn-ghost:active {
-	background-color:#cbb26a;
-	color:#000;
 }
 
 /***** NAVIGATION ******/
@@ -461,48 +449,3 @@ textarea {
 	background-color:#fff;
 }
 
-/** CAREER **/
-
-.career-section {
-	background-color: #f8f7f6;
-	padding-bottom: 30px;
-	margin-bottom: 30px;
-}
-
-.career-heading {
-	color:#cbb26a;
-	font-size: 200%;
-	font-weight: 600;
-	margin-bottom: 50px;
-	margin-top: 80px;
-}
-
-/* Forms - career section */
-
-.career-form {
-	width:100%;
-	margin:0 auto;
-	color:#555;
-}
-
-input[type=text],
-input[type=email],
-input[type=tel],
-input[type=date],
-input[type=message] {
-	width: 100%;
-	margin: auto;
-	padding: 7px;
-	border-radius: 5px;
-	border: 1px solid #ccc;
-	background-color:#fff;
-}
-
-input[type=submit] {
-	border: 0;
-	background-color: #cbb26a;
-}
-
-label:hover{
-	color:#cbb26a;
-}

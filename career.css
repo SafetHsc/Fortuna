@@ -1,0 +1,170 @@
+html,
+body {
+	background-color:#fff;
+	color:#000;
+	font-size: 16px;
+	font-family: 'Work Sans','Arial',sans-serif;
+}
+
+h1 {
+
+	font-size: 400%;
+	color:#fff;
+	font-weight: 500;
+	margin-bottom: 20px;
+
+}
+
+h2 {
+	font-size: 200%;
+	color:#fff;
+	font-weight: 400;
+}
+
+h3 {
+	font-size: 180%;
+	color:#fff;
+	font-weight: 350;
+}
+
+.row {
+	max-width: 1140px;
+	margin: 0 auto;
+}
+
+header {
+	background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.8)),url(bg-header.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	position: relative;
+}
+
+.header-box {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+}
+
+.header-text-box {
+	margin-bottom: 80px;
+}
+
+/** Button **/
+
+.btn:link,
+.btn:visited,
+input[type=submit] 
+ {
+	text-decoration: none;
+	padding: 10px 15px;
+	border-radius: 200px;
+	display: inline-block;
+}
+
+.btn-full:link,
+.btn-full:visited,
+input[type=submit]:hover {
+	background-color:rgb(195,165,97);
+	color:#000;
+}
+
+.btn-full:hover,
+.btn-full:active {
+	background-color:#cbb26a;
+}
+
+/***** NAVIGATION ******/
+.logo {
+	height: 120px;
+	width: auto;
+	float: left;
+	justify-self: start;
+}
+
+nav {	
+	margin: 0 auto;
+	display: block;
+	padding: 50px 125px 20px 10px;
+	text-align: center;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.nav-head li {
+	list-style: none;
+	margin: auto;
+	border-left: 2px solid #cbb26a;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0 25px;
+	position: relative;
+	text-align: center;
+}
+
+.nav-head li a {
+	color: #fff;
+	text-decoration: none;
+}
+	  
+.nav-head li a:hover {
+	color: #cbb26a;
+	transition: all 0.2s ease;
+}
+
+/** CAREER **/
+
+.career-section {
+	background-color: #f8f7f6;
+	
+}
+
+.career-heading {
+	color:#cbb26a;
+	font-size: 200%;
+	font-weight: 600;
+	margin-bottom: 50px;
+	margin-top: 80px;
+}
+
+/* Forms - career section */
+
+.career-form {
+	width:100%;
+	margin:0 auto;
+	color:#555;
+    padding-bottom: 30px;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=date],
+input[type=message] {
+	width: 100%;
+	margin: auto;
+	padding: 7px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	background-color:#fff;
+}
+
+input[type=submit] {
+	border: 0;
+	background-color: #cbb26a;
+}
+
+label:hover{
+	color:#cbb26a;
+}
+
+textarea {
+    margin: auto;
+	padding: 7px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	background-color:#fff;
+}

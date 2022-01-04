@@ -17,6 +17,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  
     <link href="fluid.css" type="text/css" rel="stylesheet">
     <link href="style.css" type="text/css" rel="stylesheet">
     <link href="media-query.css" type="text/css" rel="stylesheet">
@@ -37,16 +39,16 @@
                 <li><a href="#reservation">Reservations</a></li>
                 <li><a href="#partners">Partners</a></li>
                 <li><a href="#feedback">Feedback</a></li>
-                <li><a href="#career">Career</a></li>   
+                <li><a href="career.html#career">Career</a></li>   
             </ul>
         </nav>
 
         <div class="header-box">
             <div class="header-text-box">
-                <h1>Fortuna Restaurant</h1>
-                <h2>Quality is our recipe</h2>
+                <h1 class="animate__animated animate__bounceIn">Fortuna Restaurant</h1>
+                <h2 class="animate__animated animate__fadeIn">Quality is our recipe</h2>
             </div>
-            <a href="#contact" class="btn btn-full">Contact Us</a>
+            <a href="#contact" class="btn btn-full animate__animated animate__pulse">Contact Us</a>
         </div>
     </header>
         
@@ -224,7 +226,7 @@
         <div class="row">
             <div class="col span_1_of_3 feedback-box">
                 <blockquote>
-                    I am finally getting back to tell you that we had a wonderful evening! The food, the service, the host, EVERYTHING was perfect! Thank you again for making Fortuna such a special place to be.
+                    "I am finally getting back to tell you that we had a wonderful evening! The food, the service, the host, EVERYTHING was perfect! Thank you again for making Fortuna such a special place to be."
                 </blockquote>
                 
                 <cite><img src="lik1.jpg" class="img-rounded" alt=""><br> Amel Mujić </cite>
@@ -232,13 +234,15 @@
 
             <div class="col span_1_of_3 feedback-box">
                 <blockquote>
-                    Last Friday I came for restaurant week. It was FABULOUS! The portions were overly generous. Everything was so yummy - what a bargain. I will be back soon for sure.                </blockquote>
+                    "Last Friday I came for restaurant week. It was FABULOUS! The portions were overly generous. Everything was so yummy - what a bargain. I will be back soon for sure."
+                </blockquote>
                 <cite><img src="lik3.jpg" class="img-rounded" alt=""><br> Tarik Hadžić </cite>
             </div>
 
             <div class="col span_1_of_3 feedback-box">
                 <blockquote>
-                    Thank you for dinner last night. It was amazing!! I have to say it's the best meal I have had in quite some time. You will definitely be seeing more of me eating at your establishment.                </blockquote>
+                    "Thank you for dinner last night. It was amazing!! I have to say it's the best meal I have had in quite some time. You will definitely be seeing more of me eating at your establishment." 
+                </blockquote>
                 <cite>
                     <img src="lik2.jpg" class="img-rounded" alt=""><br> Lejla Begović </cite>
             </div>
@@ -298,97 +302,7 @@
 
     </section>
 
-    <section class="career-section" id="career">
-        <div class="row">
-            <h2 class="career-heading">Career</h2>
-              
-            <form method="post" action="#" class="career-form">
-                
-                <div class="row">
-                    <div class="col span_1_of_3">
-                        <label for="name-career">Name and Surname</label>
-                    </div>
-                    <div class="col span_2_of_3">
-                        <input type="text" name="name-career" id="name-career" placeholder="Your Name and Surname" required>
-                    </div>
-                </div>
-
-
-                <div class="row">
-                    <div class="col span_1_of_3">
-                        <label for="date-career">Birth Date</label>
-                    </div>
-                    <div class="col span_2_of_3">
-                        <input type="date" name="date-career" id="date-career" placeholder="Enter Your Birth Date" required>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col span_1_of_3">
-                        <label for="email-career">Your E-Mail Address</label>
-                    </div>
-                    <div class="col span_2_of_3">
-                        <input type="email" name="email-career" id="email-career" placeholder="Your E-Mail" required>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col span_1_of_3">
-                        <label for="education-career">What is Your education level?</label>
-                    </div>
-                    <div class="col span_2_of_3">
-                        <input type="text" name="education-career" id="education-career" placeholder="Primary / High / College" required>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col span_1_of_3">
-                        <label for="languages-career">Do You speak any foreign language?</label>
-                    </div>
-                    <div class="col span_2_of_3">
-                        <input type="text" name="language-career" id="language-career" placeholder="Foreign Language" required>
-                    </div>
-                </div>
-                        
-                <div class="row">
-                    <div class="col span_1_of_3">
-                        <label for="name">Type of employment</label>
-                    </div>
-                    <div class="col span_2_of_3">
-                        <input type="text" name="employment" id="employment" placeholder="Permanent / Temporary" required>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col span_1_of_3">
-                        <label for="expertise">What is Your expertise?</label>
-                    </div>
-                    <div class="col span_2_of_3">
-                        <input type="text" name="expertise" id="expertise" placeholder="Cook (chef) / Waiter / Barista / something else" required>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col span_1_of_3 contact-label">
-                        <label for="message-career">Do You have anything else to tell us about Yourself?</label>
-                    </div>
-                    <div class="col span_2_of_3">
-                        <textarea name="message-career" id="message-career" placeholder="Text Here" style="padding: 3%;"></textarea>
-                    </div>
-                </div>
-
-                <!--SUBMIT BUTTON-->
-            <div class="row">
-                <div class="col span_1_of_3">
-                 &nbsp;
-                </div>
-                <div class="col span_2_of_3">
-                    <input type="submit" value="Submit">
-                </div>
-            </div>
-            </form>
-        </div>
-    </section>
+    
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
